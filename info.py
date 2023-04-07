@@ -53,7 +53,7 @@ BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}!
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
-WELCOM_TEXT = environ.get("WELCOM_TEXT", "👋 𝙃𝙀𝙔, {MENTION} ❤️ 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 {GROUPNAME} കൂട്ടുകാർക്ക് share ചെയ്‌തോ💞 ഗരൂപ്പ് പവർ ആകട്ടെ ❤️‍🔥
+WELCOM_TEXT = environ.get("WELCOM_TEXT", "👋 𝙃𝙀𝙔, {MENTION} ❤️ 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 {GROUPNAME} കൂട്ടുകാർക്ക് share ചെയ്‌തോ💞 ഗരൂപ്പ് പവർ ആകട്ടെ ❤️‍🔥"
 PMFILTER = environ.get('PMFILTER', "True")
 G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
