@@ -644,7 +644,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,           
         )
 @Client.on_message(filters.command('help') & filters.user(ADMINS))
-       elif query.data == "help":
+async def (bot, message):
         buttons = [[
             InlineKeyboardButton('🔋 𝙴𝚇𝚃𝚁𝙰 𝙼𝙾𝙳𝚂 🔋', callback_data='extra'),            
             ],[
