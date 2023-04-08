@@ -644,7 +644,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,           
         )
 @Client.on_message(filters.command('help') & filters.user(ADMINS))
-async def help(client, message):p
+async def help(client, message):
         buttons = [[
             InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰 𝙼𝙾𝙳𝚂', callback_data='extra'),            
             ],[
@@ -682,7 +682,7 @@ async def help(client, message):p
             InputMediaPhoto(random.choice(PICS), script.HELP_TXT.format(query.from_user.mention), enums.ParseMode.HTML),
             reply_markup=reply_markup,           
         )
-    elif query.data == "about":
+    elif query.data == "hoo":
         buttons= [[
             InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎', callback_data='source')
             ],[
