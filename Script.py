@@ -5,7 +5,7 @@ class script(object):
   U can't use meeeh....."""
 
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝙀𝙑𝘼 𝙈𝘼𝙍𝙄𝘼</a>
+- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://github.com/EvamariaTG/EvaMaria>𝙀𝙑𝘼 𝙈𝘼𝙍𝙄𝘼</a>
 """
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
