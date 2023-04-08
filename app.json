@@ -31,6 +31,10 @@
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "required": true
         },
+        "RESTART_INFO": {
+            "description": "Restart Logs",
+            "required": true
+         },
         "SHORT_API": {
             "description": "Api Key Of shortner You Use.",
             "required": false
