@@ -696,7 +696,7 @@ async def help(client, message):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            InlineKeyboardButton('SOURCE CODE', url='https://github.com/EvamariaTG/EvaMaria')
             ],[
             InlineKeyboardButton('Back', callback_data='about')
         ]]
