@@ -23,9 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
             InlineKeyboardButton('𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url='https://t.me/MALAYALIFREAKSALL')
-            ],[
-            InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
-            ]]
+          ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
         if not await db.get_chat(message.chat.id):
@@ -42,7 +40,7 @@ async def start(client, message):
             ],[                       
             InlineKeyboardButton(" 𝕌ℙ𝔻𝔸𝕋𝔼𝕊 ℂℍ𝔸ℕℕ𝔼𝕃 ", url="https://t.me/+dqquafhU0ig5YzFl")
             ],[ 
-            InlineKeyboardButton("🔰 𝔸𝔹𝕆𝕌𝕋 🔰", callback_data="about"), 
+            InlineKeyboardButton("🔰 𝔸𝔹𝕆𝕌𝕋 🔰", callback_data="hoo"), 
             InlineKeyboardButton("ℍ𝔼𝕃ℙ", callback_data="help")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -66,7 +64,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "𝙅𝙤𝙞𝙣 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=invite_link.invite_link
                 )
             ]
         ]
@@ -91,7 +89,7 @@ async def start(client, message):
             ],[                       
             InlineKeyboardButton(" 𝕌ℙ𝔻𝔸𝕋𝔼𝕊 ℂℍ𝔸ℕℕ𝔼𝕃 ", url="https://t.me/+dqquafhU0ig5YzFl")
             ],[ 
-            InlineKeyboardButton("🔰 𝔸𝔹𝕆𝕌𝕋 🔰", callback_data="about"), 
+            InlineKeyboardButton("🔰 𝔸𝔹𝕆𝕌𝕋 🔰", callback_data="hoo"), 
             InlineKeyboardButton("ℍ𝔼𝕃ℙ", callback_data="help")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
